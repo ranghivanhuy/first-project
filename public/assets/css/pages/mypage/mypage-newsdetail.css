@@ -1,0 +1,33 @@
+.mypage-newsdetail-top {
+  height: 86px;
+  width: 100%;
+  border: 1px solid;
+}
+.mypage-newsdetail-top .mypage-newsdetail-top-btn-back {
+  background-image: url("../../../images/btn_back.png");
+  width: 35px;
+  height: 35px;
+  margin-top: 15px;
+  position: absolute;
+}
+.mypage-newsdetail-top .mypage-newsdetail-top-title {
+  padding-top: 10px;
+}
+.mypage-newsdetail-top .mypage-newsdetail-top-title > .text-title {
+  color: #583F10;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.mypage-newsdetail-top .mypage-newsdetail-top-title > .text-title2 {
+  color: #B17B16;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.mypage-newsdetail-content {
+  padding: 20px 20px;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=mypage-newsdetail.css.map */

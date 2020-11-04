@@ -1,0 +1,70 @@
+.mypage-detail-top {
+    height: 60px;
+    width: 100%;
+    .mypage-detail-top-btn-back {
+        background-image: url('../../../images/btn_back.png');
+        width: 35px;
+        height: 35px;
+        margin-top: 15px;
+        position: absolute;
+    }
+    .mypage-detail-top-title {
+        text-align: center;
+        padding-top: 10px;
+        .text-title {
+            color: #B17B16;
+            font-size: 18px;
+            padding-top: 10px;
+        }
+    }
+    
+}
+.mypage-detail-banner {
+    background-image: url('../../../images/image_checkPoint.png');
+    background-size: cover;
+    width: 100%;
+    height: 162px;
+    overflow: hidden;
+    background-color: #EEEEEE;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+}
+.mypage-detail-content {
+    padding: 10px 20px;
+    .mypage-detail-content-text {
+        font-size: 14px;
+    }
+    .mypage-detail-content-btn {
+        padding-top: 100px;
+        .btn-time-celebrate {
+            font-size: 12px;
+            a.btn-time-celebrate-main {
+                text-align: center;
+                border: 1px solid #EBB61E;
+                border-radius: 15px;
+                height: 20px;
+                background-color: #EBB61E;
+                width: 80px;
+                display: inline-table;
+                color: white;
+                font-size: 12px;
+            }
+        }
+        .btn-area-target {
+            font-size: 12px;
+            padding-top: 7px;
+            a.btn-area-target-main {
+                text-align: center;
+                border: 1px solid #EBB61E;
+                border-radius: 15px;
+                height: 20px;
+                background-color: #EBB61E;
+                width: 80px;
+                display: inline-table;
+                color: white;
+                font-size: 12px;
+            }
+        }
+    }
+}

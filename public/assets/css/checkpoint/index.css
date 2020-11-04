@@ -1,0 +1,80 @@
+.checkpoint-top {
+  height: 60px;
+  width: 100%;
+}
+.checkpoint-top .checkpoint-top-btn-back {
+  background-image: url("../../images/btn_back.png");
+  width: 35px;
+  height: 35px;
+  margin-top: 15px;
+  position: absolute;
+}
+.checkpoint-top .checkpoint-top-title {
+  text-align: center;
+  padding-top: 10px;
+}
+.checkpoint-top .checkpoint-top-title .text-title {
+  color: #B17B16;
+  font-size: 12px;
+}
+.checkpoint-top .checkpoint-top-title .text-title2 {
+  color: #583F10;
+  font-size: 18px;
+}
+
+.checkpoint-banner {
+  background-image: url("../../images/image_checkPoint.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 162px;
+  overflow: hidden;
+  background-color: #EEEEEE;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.checkpoint-content {
+  padding-top: 15px;
+}
+.checkpoint-content .checkpoint-content-text {
+  width: 70%;
+  color: #583F10;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.checkpoint-btn-camera {
+  text-align: center;
+  margin-top: 68px;
+}
+.checkpoint-btn-camera a.btn-camera {
+  background-color: #26A699;
+  border-radius: 15px;
+  width: 150px;
+  height: 124px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 30px;
+}
+.checkpoint-btn-camera a.btn-camera img.image-camera {
+  width: 72px;
+  padding-top: 10px;
+}
+.checkpoint-btn-camera a.btn-camera > p {
+  color: white;
+  font-size: 16px;
+}
+
+.section-checkpoint-error > .error-content {
+  width: 100%;
+  position: fixed;
+  top: 50%;
+}
+.section-checkpoint-error > .error-content > p {
+  color: #F24C3D;
+  font-size: 18px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
