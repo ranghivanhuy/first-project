@@ -40,3 +40,14 @@ Route::get('/mypage-detail', function () {
 Route::get('/mypage-news-detail', function () {
     return view('stamp.pages.mypage.mypage-newsdetail');
 });
+
+Route::get('/stamprally_top_detail', function () {
+    return view('stamp.pages.stamprally_top_detail.index');
+});
+
+Route::get('/stamp_card_detail', function () {
+    return view('stamp.pages.stamprally_top_detail.stamp_card_detail');
+});
+Route::get('/stamprally_top_detail2', function () {
+    return view('stamp.pages.stamprally_top_detail.stamprally_top_detail');
+});
